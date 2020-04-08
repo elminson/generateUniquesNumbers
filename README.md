@@ -1,6 +1,11 @@
 # generateUniquesNumbers
 
 ```php
+<?php 
+
+require_once __DIR__ . '/vendor/autoload.php'; // Autoload files using Composer autoload
+
+use Elminson\GenerateUniquesNumbers;
 
 $array = [1, 2, 3, 4];
 
