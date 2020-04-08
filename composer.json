@@ -1,7 +1,7 @@
 {
   "name": "elminson/generateuniquesnumbers",
   "description": "This generate an array of uniques numbers in a range",
-  "type": "project",
+  "type": "package",
   "require": {
   },
   "require-dev": {
