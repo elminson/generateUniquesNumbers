@@ -4,18 +4,28 @@ namespace Elminson;
 class GenerateUniquesNumbers
 {
 
-	private $exclude = [];
+	private $exclude;
 
-	private $topRandomNumber = 1;
+	private $topRandomNumber;
 
-	private $max = 10;
+	private $max;
 
-	private $currentNumbers = [];
+	private $currentNumbers;
 
-	private $error = false;
+	private $error;
 
+	public function __construct()
+	{
 
-	function generate()
+		$this->exclude = [];
+		$this->max = 10;
+		$this->topRandomNumber = 1;
+		$this->currentNumbers = [];
+		$this->error = false;
+
+	}
+
+	public function generate()
 	{
 
 		$number = rand(0, $this->max);
