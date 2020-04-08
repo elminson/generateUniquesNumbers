@@ -1,6 +1,7 @@
 <?php
+namespace Elminson;
 
-class generateUniqueNumbers
+class GenerateUniquesNumbers
 {
 
 	private $exclude = [];

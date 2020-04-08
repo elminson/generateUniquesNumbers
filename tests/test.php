@@ -1,10 +1,11 @@
 <?php
+require_once __DIR__ . '/vendor/autoload.php'; // Autoload files using Composer autoload
 
-require "generateUniquesNumbers.php";
+use Elminson\GenerateUniquesNumbers;
 
 $array = [1, 2, 3, 4, 5];
 
-$gen = new generateUniqueNumbers();
+$gen = new GenerateUniquesNumbers();
 
 $gen->setMax(100);
 
